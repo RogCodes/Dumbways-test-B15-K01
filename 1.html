@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // Awal jam 10:25:21
+        // Sebelas menit kemudian jam 10:36:21
+        // Jam 12:00:00 - 10:36:21 = 01:34:39 =  detik
+        var perSepuluhDetik = 5019/600;
+        //Setiap 10 menit (600 detik) berikutnya kecepatan bertambah 1m/s
+        var kecepatanAwal = 6;
+        
+        var jarak1 = (11*60);//3960 meter selama 11 menit
+        var jarak2 = (10*60);
+        var jarak3 = (3*60)+39;
+
+        var tempuh1 = (jarak1*kecepatanAwal);
+        var tempuh2 = (jarak2*7) + (jarak2*8) + (jarak2*9) + (jarak2*10) + (jarak2*11) + (jarak2*12) + (jarak2*13) + (jarak2*14);
+        var tempuh3 = jarak3*15;
+
+        var total = tempuh1 + tempuh2 + tempuh3;
+
+        console.log("Jarak Tempuh seluruhnya adalah : " + total + " meter.");
+        
+
+        
+    </script>
+</body>
+</html>

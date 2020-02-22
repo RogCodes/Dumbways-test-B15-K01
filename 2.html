@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+        <h1>Mengurutkan isi array multi dimensi</h1>
+
+        <ol>
+            <li>Buka console</li>
+            <li>Lalu jalankan function urutkanData();</li>
+            <li>Violaa... data telah terurutkan</li>
+        </ol>
+    </div>
+
+<script>
+
+function urutkanData() {
+    var data = [
+        ['S', 'Q', 'R', 'U', 'T', 'O', 'P'],
+        ['L', 'K', 'N', 'M'], 
+        ['X', 'W', 'Y']
+    ];
+
+    data.forEach(function(e) {
+        e.sort();
+    });
+
+    return data.sort();
+
+}
+
+
+</script>
+</body>
+</html>

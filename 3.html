@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        var n = prompt("Masukkan jumlah bintang : ")
+
+        function stars(n){
+            for (var i=1;i<=n/2;i++){
+                for (var j=i;j<=n/2;j++){
+                    document.write("&nbsp &nbsp");
+                }
+                for (var k=1;k<=i;k++){
+                    document.write("* ");
+                }
+                for (var l=1;l<=i-1;l++){
+                    document.write("* ");
+                }
+                document.write("<br>");
+            }
+
+            for (var i=1;i<=n/2;i++){
+                for (var j=1;j<=i;j++){
+                    document.write("&nbsp &nbsp");
+                }
+                for (var k=i;k<=n/2;k++){
+                    document.write("* ");
+                }
+                for (var l=i+1;l<=n/2;l++){
+                    document.write("* ");
+                }
+                document.write("<br>");
+            }
+        }
+    stars(n);
+
+    </script>
+</body>
+</html>
