@@ -7,4 +7,4 @@
 - Setelah itu buka melalui browser.
 <br>
 <br>
-Note : Aplikasi CRUD nomor 4 masih belum selesai. :'(
+Note : Aplikasi CRUD nomor 4 masih belum selesai, tetapi saya sudah berusaha semaksimal mungkin. :'(
